@@ -65,14 +65,16 @@
     <div class="container mt-4">
       <div class="row align-items-center">
         <div class="col-md-6">
-          <h1><span>Ventas</span></h1>
+          <h1 class="mb-3"><span>Ventas</span></h1>
         </div>
+
         <div class="col-md-6 text-end">
           <small> ⇄ UYU/USD: 28.38</small>
         </div>
+        <hr class="secondary" />
       </div>
       <div class="row">
-        <div class="col-3 bg-light rounded p-3">
+        <div class="col-3 bg-light rounded p-2 mt-3">
           <form action="">
             <h5>Filtros</h5>
             <hr />
@@ -121,25 +123,48 @@
           </form>
         </div>
         <div class="col-md-9">
-          <div class="card mb-3 p-3">
-            <div class="row g-0">
+          <div class="p-3">
+            <div class="row g-0 container">
               <div class="col-md-4">
                 <img
                   src="/img/Ventas/audi_a6_quattro_2016.jpg"
-                  class="img-fluid rounded-start"
+                  class="img-fluid h-100 card p-1"
                   alt="..."
                 />
               </div>
-              <div class="col-md-8 p-3">
-                <div class="card-body">
-                  <h5 class="card-title">Audi Q5</h5>
-                  <p class="card-text">
+              <div class="col-md-8 p-1">
+                <div
+                  class="card-body d-flex justify-content-between align-items-start"
+                >
+                  <h5 class="card-title mb-0">Audi Q5</h5>
+                  <div class="text-end">
+                    <small>2017 | USD 92.000 |</small>
+                    <small class="estrellas">★★★★★</small>
+                  </div>
+                </div>
+                <div>
+                  <p class="card-text p-3">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Cumque dolor dolorem itaque esse quis voluptatem
                     voluptatibus perspiciatis dignissimos tempora? Ullam modi
                     nihil ipsum tenetur blanditiis dignissimos optio ratione
                     deserunt sapiente.
                   </p>
+                  <button type="button" class="btn btn-success btn-sm ms-3">
+                    <i class="bi bi-cart-fill me-1"></i>Comprar
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary btn-sm text-dark"
+                  >
+                    <i class="bi bi-plus-square me-1"></i>Más información
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary btn-sm text-dark"
+                  >
+                    <i class="bi bi-box-arrow-up"></i> Compartir
+                  </button>
                 </div>
               </div>
             </div>

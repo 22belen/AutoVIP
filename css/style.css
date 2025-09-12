@@ -5,6 +5,9 @@
 .form-label {
   font-weight: bold;
 }
+.estrellas {
+  color: gold;
+}
 .carousel {
   height: 36vw;
 }
