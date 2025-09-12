@@ -2,6 +2,12 @@
   background-color: #303030;
   padding: 10px 20px;
 }
+.form-label {
+  font-weight: bold;
+}
+.estrellas {
+  color: gold;
+}
 .carousel {
   height: 36vw;
 }
