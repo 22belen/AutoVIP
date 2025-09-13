@@ -9,7 +9,7 @@
   color: gold;
 }
 .carousel {
-  height: 36vw;
+  height: 40vw;
 }
 .Face {
   width: 40px;
@@ -17,4 +17,8 @@
 }
 .Mensaje {
   height: 100px;
+}
+.color {
+  background-color: orange;
+  height: 4px;
 }
