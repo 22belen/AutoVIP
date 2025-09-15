@@ -229,19 +229,21 @@
         <div class="row">
           <!-- Columna izquierda -->
           <div class="col-3">
-            <p class="mb-0">AUTOVIP</p>
+            <a href="index.html " class="text-white text-decoration-none">
+              AUTOVIP</a
+            >
           </div>
 
           <!-- Columna central -->
           <div class="col-3">
             <ul class="list-unstyled">
               <li>
-                <a href="#" class="text-white text-decoration-none"
+                <a href="ventas.html" class="text-white text-decoration-none"
                   >Venta okm</a
                 >
               </li>
               <li>
-                <a href="#" class="text-white text-decoration-none"
+                <a href="ventas.html" class="text-white text-decoration-none"
                   >Venta Usados</a
                 >
               </li>
@@ -252,12 +254,14 @@
           <div class="col-3">
             <ul class="list-unstyled text-md-end">
               <li>
-                <a href="#" class="text-white text-decoration-none"
+                <a
+                  href="sobre-nosotros.html"
+                  class="text-white text-decoration-none"
                   >Sobre Nosotros</a
                 >
               </li>
               <li>
-                <a href="#" class="text-white text-decoration-none">Contacto</a>
+                <a href="" class="text-white text-decoration-none">Contacto</a>
               </li>
             </ul>
           </div>
@@ -274,6 +278,63 @@
       </div>
     </footer>
     <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Contacto</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <form>
+            <div class="mb-3 container">
+              <label for="exampleInputtext1" class="form-label">Nombre</label>
+              <input
+                type="text"
+                placeholder="Ingresar nombre completo..."
+                class="form-control"
+                id="exampleInputText1"
+                aria-describedby="TextHelp"
+              />
+            </div>
+            <div class="mb-3 container">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input
+                type="email"
+                placeholder="Ingresar Email..."
+                class="form-control"
+                id="exampleInputEmail1"
+              />
+            </div>
+            <div class="container">
+              <label for="exampleInputtext1" class="form-label">Mensaje</label>
+              <textarea
+                type="text"
+                placeholder="Ingresar mensaje..."
+                class="form-control"
+                id="exampleInputText1"
+                aria-describedby="TextHelp"
+                rows="6"
+              ></textarea>
+            </div>
+          </form>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <div
       class="modal fade"
       id="exampleModal"
