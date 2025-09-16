@@ -12,7 +12,9 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="">
+
+  <body>
+    <!-- Belén Fleitas y Luciano -->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand text-light nav-link" href="index.html"
@@ -108,47 +110,35 @@
         ></button>
       </div>
       <div class="carousel carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/html/bmw_1.jpg" class="d-block w-100 h-100" alt="..." />
+        <div class="carousel-item active h-100">
+          <img src="img/html/bmw_1.jpg" class="d-block w-100" alt="..." />
 
-          <div class="carousel-caption">
+          <div class="carousel-caption d-none d-md-block">
             <h5 class="">BMW</h5>
           </div>
         </div>
-        <div class="carousel-item">
-          <img
-            src="img/html/audi_2.jpg"
-            class="d-block w-100 h-100"
-            alt="..."
-          />
+        <div class="carousel-item h-100">
+          <img src="img/html/audi_2.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Audi</h5>
+            <h5>AUDI</h5>
           </div>
         </div>
-        <div class="carousel-item">
-          <img
-            src="img/html/bentley_1.jpg"
-            class="d-block w-100 h-100"
-            alt="..."
-          />
+        <div class="carousel-item h-100">
+          <img src="img/html/bentley_1.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5 class="">Bentley</h5>
+            <h5 class="">BENTLEY</h5>
           </div>
         </div>
-        <div class="carousel-item">
-          <img
-            src="./img/html/audi_1.jpg"
-            class="d-block w-100 h-100"
-            alt="..."
-          />
+        <div class="carousel-item h-100">
+          <img class="d-block w-100" src="img/html/audi_1.jpg" alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5 class="">Audi</h5>
+            <h5 class="">AUDI</h5>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item h-100">
           <img src="img/html/volvo_1.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5 class="mb-4">Volvo</h5>
+            <h5 class="">VOLVO</h5>
           </div>
         </div>
       </div>
@@ -207,7 +197,7 @@
                   ipsa unde optio amet nisi doloremque beatae accusamus!
                 </p>
                 <button type="button" class="btn btn-outline-secondary">
-                  Ver autos
+                  <a class="nav-link" href="ventas.html">Ver autos</a>
                 </button>
               </div>
             </div>
@@ -255,7 +245,7 @@
                   ipsa unde optio amet nisi doloremque beatae accusamus!
                 </p>
                 <button type="button" class="btn btn-outline-secondary">
-                  Ver autos
+                  <a class="nav-link" href="ventas.html">Ver autos</a>
                 </button>
               </div>
             </div>
@@ -289,7 +279,13 @@
                   repellat, repellendus magnam eligendi minima autem, blanditiis
                   ipsa unde optio amet nisi doloremque beatae accusamus!
                 </p>
-                <button type="button" class="btn btn-outline-secondary">
+
+                <button
+                  type="button "
+                  class="btn btn-outline-secondary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
                   Ver trámites
                 </button>
               </div>
